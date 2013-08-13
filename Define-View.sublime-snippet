@@ -1,0 +1,23 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+/*
+Author: john.farrow@aerian.com
+*/
+define([$1],function($2){
+	return Backbone.View.extend({
+		initialize:function(){
+			this.render();
+		},
+		render: function(){
+			var ${4:template} = "${3:Hello World}";
+			this.\$el.html(${4:template});$0
+		}
+	});
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>dbv</tabTrigger>
+  <description>Define a Backbone View Module</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content>debugger;</content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>deb</tabTrigger>
+  <description>Debugger</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
