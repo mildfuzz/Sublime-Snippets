@@ -12,6 +12,7 @@ define([$1],function($2){
 		render: function(){
 			var ${4:template} = "${3:Hello World}";
 			this.\$el.html(${4:template});$0
+			return this;
 		}
 	});
 });
