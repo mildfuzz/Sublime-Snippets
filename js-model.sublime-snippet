@@ -1,0 +1,17 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content>  var ${1:Class}= function(attributes){
+        attributes = attributes || {};
+        var defaults = {};
+        _.extend(this.prototype, defaults,attributes);
+        this.init.apply(this,arguments);
+    };
+    _.extend(${1:Class}.prototype, {
+        init: function(){}
+        }
+    });</content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>jsm</tabTrigger>
+  <description>Javascript Model (requires backbone)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
