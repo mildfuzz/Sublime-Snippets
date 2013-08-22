@@ -2,7 +2,6 @@
 	"ignored_packages":
 	[
 		"sublimelint",
-		"SublimeSnippetMaker",
 		"sublime-text-refactor"
 	]
 }
